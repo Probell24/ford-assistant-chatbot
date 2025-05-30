@@ -1,0 +1,30 @@
+{
+  "name": "ford-assistant-chatbot",
+  "version": "1.0.0",
+  "description": "Ford Assistant Chatbot by Probel for LINE OA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "express": "^4.18.2",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ford",
+    "chatbot",
+    "line",
+    "thailand",
+    "automotive"
+  ],
+  "author": "Probel - Ford Phra Pradaeng",
+  "license": "MIT"
+}
